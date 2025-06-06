@@ -1,0 +1,85 @@
+# SmarTODO - Windsurf Development Rules
+
+A React Native application with UI Kitten components
+
+## Project Information
+
+- **Name:** SmarTODO
+- **Type:** Mobile
+- **Framework:** React Native
+- **Language:** TypeScript
+
+## Development Environment
+
+- **Package Manager:** npm
+- **Node Version:** >=14.0.0
+
+### Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run start` | Start the development server |
+| `npm run android` | Run on Android device/emulator |
+| `npm run ios` | Run on iOS simulator |
+| `npm run test` | Run tests |
+| `npm run lint` | Run linting |
+
+## Project Structure
+
+### Source Directory (`src`)
+
+| Directory | Purpose |
+|-----------|---------|
+| `components` | Reusable UI components |
+| `screens` | Screen components |
+| `navigation` | Navigation configuration |
+| `services` | API and other services |
+| `utils` | Utility functions |
+| `hooks` | Custom hooks |
+| `assets` | Static assets |
+| `types` | TypeScript type definitions |
+
+## Naming Conventions
+
+### Components
+- **Naming:** PascalCase
+- **Extension:** .tsx
+
+### Hooks
+- **Naming:** camelCase
+- **Prefix:** use
+- **Extension:** .ts
+
+### Services
+- **Naming:** camelCase
+- **Extension:** .ts
+
+### Types
+- **Naming:** PascalCase
+- **Suffix:** Type
+- **Extension:** .ts
+
+## Styling
+
+- **Framework:** UI Kitten
+- **Theme Location:** src/theme
+- **Convention:** Follow UI Kitten theming guidelines
+
+## Code Quality
+
+### Linting
+- ESLint: Enabled
+- Prettier: Enabled
+
+## Testing
+
+- **Framework:** Jest
+- **Convention:** Files should be named *.test.ts or *.test.tsx
+
+## Deployment
+
+### Android
+- **Build Command:** `npm run android -- --variant=release`
+
+### iOS
+- **Build Command:** `npm run ios -- --configuration Release`
